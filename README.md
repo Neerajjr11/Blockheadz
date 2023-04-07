@@ -4,7 +4,7 @@ _INSTRUCTIONS: This GitHub repository serves as a template you can use to create
 
 _New to Git and GitHub? This free online course will get you up to speed quickly: [Getting Started with Git and GitHub](https://www.coursera.org/learn/getting-started-with-git-and-github)_.
 
-# Replace this heading with your team/submission name
+# Blockheadz
 
 - [Project summary](#project-summary)
   - [The issue we are hoping to solve](#the-issue-we-are-hoping-to-solve)
@@ -20,12 +20,6 @@ _New to Git and GitHub? This free online course will get you up to speed quickly
 - [Additional details](#additional-details)
   - [How to run the project](#how-to-run-the-project)
   - [Live demo](#live-demo)
-- [About this template](#about-this-template)
-  - [Contributing](#contributing)
-  - [Versioning](#versioning)
-  - [Authors](#authors)
-  - [License](#license)
-  - [Acknowledgments](#acknowledgments)
 
 _INSTRUCTIONS: Complete all required deliverable sections below._
 
@@ -33,34 +27,49 @@ _INSTRUCTIONS: Complete all required deliverable sections below._
 
 ### The issue we are hoping to solve
 
-REPLACE THIS SENTENCE with a short description, 2-3 sentences in length, of the specific sustainability problem your solution is meant to address.
+Our approach will directly deal with environmental sustainability in a shared manner. It aims to create a collaborative culture to solve the problem of unsustainability in a transparent yet feasible way. The idea aims to create an environment of shared efforts to drive all the stakeholders involved in the supply chain process to monitor the factors involved from manufacture to delivery of the product at the retail level so that certain level of sustainability criteria are met.
 
 ### How our technology solution can help
 
-REPLACE THIS SENTENCE with a short description of your team's solution, in about 10 words.
+The Product lays down a whole new paradigm for a sustainable supply chain.
 
 ### Our idea
 
-INSTRUCTIONS: Replace this paragraph with a longer description of your solution. In about 500 words, describe your solution in more detail. Include the real-world problem you identified, describe the technological solution you have created, and explain how it’s an improvement over existing solutions. You can supply additional documentation in this source code repository that you link to as well.
+As sustainability becomes increasingly important to consumers and investors, companies are seeking innovative ways to create more sustainable supply chains. Blockchain technology provides a promising solution to help companies achieve this goal by increasing transparency, accountability, and efficiency in the supply chain.
 
-More detail is available in our [description document](./docs/DESCRIPTION.md).
+Blockchain technology is a secure, tamper-proof digital ledger that records transactions in a transparent manner. By leveraging blockchain technology, companies can create a sustainable supply chain that is transparent, secure, and efficient. This can help reduce the environmental impact of their operations, improve their reputation, and attract investors. We, therefore, are leveraging Hyperledger to create a collaborative system to address the environmental issues caused in the supply chain, whereby the use of ethical practices companies, retailers and transportation stake holders can meet sustainability demands with AI-enabled smart contracts to track whether the required criteria from right the process of production of resource to completion of the product are maintained or not.
+
+Through the use of blockchain technology, companies can track the origin of their raw materials and ensure that they are sourced from sustainable and ethical sources and have complied with the mandatory rules posed in the smart contract. This can help reduce waste and improve efficiency in the supply chain. Additionally, blockchain technology can enable companies to collaborate more effectively with their suppliers, customers, and other stakeholders in the supply chain, leading to improved communication, reduced delays, and increased efficiency. The authenticity of the smart contract will be automatically generated from filled parameters and use of AI methodoly to verify the same.
+
+However, to fully realize the benefits of blockchain technology, companies must address challenges such as the need for collaboration and standardization across the industry and data privacy and security concerns. Nevertheless, the potential benefits of blockchain technology for creating sustainable supply chains make it a technology worth exploring for companies looking to improve their sustainability and profitability in the long term. As sustainability becomes increasingly important to consumers and investors, companies are seeking innovative ways to create more sustainable supply chains. Blockchain technology provides a promising solution to help companies achieve this goal by increasing transparency, accountability, and efficiency in the supply chain. 
+Carbon footprint tracking: Blockchain technology can be used to track and verify the carbon emissions associated with the transportation of products, enabling companies to monitor their carbon footprint and identify areas for improvement.
+
+- Green logistics: Blockchain technology can help companies optimize logistics to reduce energy consumption and emissions. For example, by optimizing routes, reducing empty miles, and using more efficient transportation modes, companies can reduce their environmental impact.
+
+- Sustainable sourcing: Blockchain technology can be used to track the sustainability of raw materials, such as the origin of minerals, lumber, or agricultural products. This can help companies ensure they are using sustainable and ethical sources.
+
+- Circular economy: Blockchain technology can support the transition towards a circular economy by tracking and verifying the origin, ownership, and condition of products and materials. This can facilitate the reuse, refurbishment, and recycling of products, reducing waste and promoting resource efficiency.
+
+- Eco-labeling: Blockchain technology can enable companies to create eco-labels that provide transparent and verified information on the environmental impact of their products, enabling consumers to make more informed purchasing decisions.
+
+- Traceability and accountability: By providing an immutable and transparent record of transactions, blockchain technology can increase traceability and accountability in the supply chain, enabling companies to identify and address sustainability issues more effectively.
+
 
 ## Technology implementation
 
 ### IBM AI service(s) used
 
-_INSTRUCTIONS: Included here is a list of commonly used IBM AI services. Remove any services you did not use, or add others from the linked catalog not already listed here. Leave only those included in your solution code. Provide details on where and how you used each IBM AI service to help judges review your implementation. Remove these instructions._
-
-- [IBM Natural Language Understanding](https://cloud.ibm.com/catalog/services/natural-language-understanding) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-- [Watson Assistant](https://cloud.ibm.com/catalog/services/watson-assistant) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-- [Watson Discovery](https://cloud.ibm.com/catalog/services/watson-discovery) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-- [Watson Speech to Text](https://cloud.ibm.com/catalog/services/speech-to-text) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-- [Watson Text to Speech](https://cloud.ibm.com/catalog/services/text-to-speech) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
+- [IBM Natural Language Understanding](https://cloud.ibm.com/catalog/services/natural-language-understanding) - Used to make the application multilingual and understand scraped documents for fetching information for smart contract generation
+- [Watson Assistant](https://cloud.ibm.com/catalog/services/watson-assistant) - Used to create a personalized chatbot and to serve retailer layer with services
+- [Watson Discovery](https://cloud.ibm.com/catalog/services/watson-discovery) - Used to get required information required to generate smart contracts and create analytics report and estimation for retailer layer
+- [Watson Speech to Text](https://cloud.ibm.com/catalog/services/speech-to-text) - Used in chatbot and search fields
+- [Watson Text to Speech](https://cloud.ibm.com/catalog/services/text-to-speech) - Used in chatbots
 - List any additional [IBM AI services](https://cloud.ibm.com/catalog?category=ai#services) used or remove this line
 
 ### Other IBM technology used
 
-INSTRUCTIONS: List any other IBM technology used in your solution and describe how each component was used. If you can provide links to/details on exactly where these were used in your code, that would help the judges review your submission.
+- [IBM Coverlistics]() - Used to create personalized chat bot and integrate it with mobile applications at all levels
+- [IBM Watson Knowledge Catalog]()  - Used to generate data for analytics and feed them to AI model for analytics purposes.
 
 ### Solution architecture
 
@@ -75,19 +84,17 @@ Diagram and step-by-step description of the flow of our solution:
 
 ## Presentation materials
 
-_INSTRUCTIONS: The following deliverables should be officially posted to your My Team > Submissions section of the [Call for Code Global Challenge resources site](https://cfc-prod.skillsnetwork.site/), but you can also include them here for completeness. Replace the examples seen here with your own deliverable links._
-
 ### Solution demo video
 
 [![Watch the video](https://raw.githubusercontent.com/Liquid-Prep/Liquid-Prep/main/images/readme/IBM-interview-video-image.png)](https://youtu.be/vOgCOoy_Bx0)
 
 ### Project development roadmap
 
-The project currently does the following things.
+The project currently has completed following phases.
 
-- Feature 1
-- Feature 2
-- Feature 3
+- Planning
+- Research and Exploration
+- Mobile application design
 
 In the future we plan to...
 
@@ -111,30 +118,3 @@ See our [description document](./docs/DESCRIPTION.md) for log in credentials.
 
 ---
 
-_INSTRUCTIONS: You can remove the below section from your specific project README._
-
-## About this template
-
-### Contributing
-
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
-
-### Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
-
-### Authors
-
-<a href="https://github.com/Call-for-Code/Project-Sample/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=Call-for-Code/Project-Sample" />
-</a>
-
-- **Billie Thompson** - _Initial work_ - [PurpleBooth](https://github.com/PurpleBooth)
-
-### License
-
-This project is licensed under the Apache 2 License - see the [LICENSE](LICENSE) file for details.
-
-### Acknowledgments
-
-- Based on [Billie Thompson's README template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2).
